@@ -1,0 +1,20 @@
+# parameters (kB=1)
+L = 120
+J = 1.0
+Jab = -2.0
+mu_a = 1.0
+mu_b = 1.3333333333333
+
+# simulation controls
+swap_every = 5
+therm_sweeps = 20000
+meas_sweeps = 100000
+bin_size = 100
+seed = 1234567
+
+# global T range for the scan (code will add dense windows near Tc and T0(h))
+T_min = 1.0
+T_max = 3.0
+
+# h values (one per line)
+h = 0.
